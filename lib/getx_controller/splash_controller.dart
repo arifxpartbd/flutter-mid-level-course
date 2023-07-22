@@ -10,7 +10,9 @@ class SplashScreenController extends GetxController{
     await Future.delayed(const Duration(milliseconds: 500));
     isAnimation.value = true;
     await Future.delayed(const Duration(milliseconds: 5000));
+    //Get.offAll(const HomeScreen());
     Get.offAll(const HomeScreen());
+
 
   }
 }
